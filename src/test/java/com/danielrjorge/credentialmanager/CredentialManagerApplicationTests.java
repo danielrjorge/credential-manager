@@ -1,4 +1,4 @@
-package com.danielrjorge.CredentialManager;
+package com.danielrjorge.credentialmanager;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
