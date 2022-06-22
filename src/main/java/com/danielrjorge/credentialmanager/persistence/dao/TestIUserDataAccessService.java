@@ -17,6 +17,11 @@ public class TestIUserDataAccessService implements IUserDao {
         DB.add(user);
         return 1;
     }
+
+    @Override
+    public List<User> selectAllUsers() {
+        return DB;
+    }
 }
 
 

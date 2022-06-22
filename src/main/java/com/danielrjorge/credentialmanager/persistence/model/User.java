@@ -28,4 +28,12 @@ public class User extends Encoder{
     public String getEncodedPassword() {
         return encodedPassword;
     }
+
+    public UUID getUuid() {
+        return uuid;
+    }
+
+    public List<Login> getPasswordList() {
+        return passwordList;
+    }
 }
