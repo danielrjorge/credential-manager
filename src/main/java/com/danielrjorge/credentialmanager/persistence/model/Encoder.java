@@ -1,10 +1,11 @@
 package com.danielrjorge.credentialmanager.persistence.model;
 
-import org.springframework.security.crypto.factory.PasswordEncoderFactories;
-import org.springframework.security.crypto.password.PasswordEncoder;
+
+import java.net.PasswordAuthentication;
+import java.security.KeyStore;
 
 abstract public class Encoder{
 
-    protected PasswordEncoder passwordEncoder = PasswordEncoderFactories.createDelegatingPasswordEncoder();
+
 
 }

@@ -17,7 +17,7 @@ public class User extends Encoder{
                 @JsonProperty("password") String password) {
         this.uuid = UUID.randomUUID();
         this.username = username;
-        this.encodedPassword = passwordEncoder.encode(password);
+        this.encodedPassword = password;
         this.passwordList = new ArrayList<>();
     }
 

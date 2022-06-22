@@ -10,6 +10,6 @@ public class Login extends Encoder{
     public Login(String loginUsername, String password) {
         this.uuid = UUID.randomUUID();
         this.loginUsername = loginUsername;
-        this.encodedPassword = passwordEncoder.encode(password);
+        this.encodedPassword = password;
     }
 }
